@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Random Quote Generator</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Random Quote Generator</h1>
+      <button id="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle light/dark mode">
+        <span id="theme-icon">🌙</span>
+      </button>
+    </header>
+    <div class="quote-card" id="quote-card">
+      <div class="quote-count" id="quote-count"></div>
+      <p id="quote-text" class="quote-text"></p>
+      <p id="quote-author" class="quote-author"></p>
+      <div class="buttons">
+        <button id="new-quote" aria-label="New Quote" title="New Quote">🔄</button>
+        <button id="copy-quote" aria-label="Copy Quote" title="Copy Quote">📋</button>
+        <button id="tweet-quote" aria-label="Tweet Quote" title="Tweet Quote">🐦</button>
+        <button id="fav-quote" aria-label="Favorite Quote" title="Favorite Quote">⭐</button>
+      </div>
+      <span id="copy-feedback" class="copy-feedback"></span>
+    </div>
+    <button id="show-favorites" class="show-favorites-btn" aria-label="Show Favorites" title="Show Favorites">❤️ Favorites</button>
+    <div id="favorites-modal" class="modal" aria-modal="true" role="dialog" tabindex="-1">
+      <div class="modal-content">
+        <span class="close" id="close-modal" tabindex="0" aria-label="Close">&times;</span>
+        <h2>Your Favorite Quotes</h2>
+        <ul id="favorites-list"></ul>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Made with ❤️ using HTML, CSS & JS</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
