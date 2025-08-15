@@ -10,15 +10,6 @@ A clean and interactive web app that displays a random quote each time you click
 - 🐦 Tweet the quote on Twitter
 - 💖 Add quotes to your favorites (if implemented)
 
-## 📸 Demo
-
-> *(Add a GitHub Pages or video demo link here if hosted)*
-
-## 🚀 Live Preview
-
-[Click to View Live](https://your-username.github.io/Random-Quote-Generator/)  
-> *(Replace with actual GitHub Pages link if hosted)*
-
 ## 🛠️ Tech Stack
 
 - HTML5
