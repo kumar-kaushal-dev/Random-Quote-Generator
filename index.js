@@ -184,5 +184,5 @@ closeModal.addEventListener('keydown', (e) => {
   }
 })();
 
-// Show a quote on load
+// Show a quote on load 
 displayQuote();
