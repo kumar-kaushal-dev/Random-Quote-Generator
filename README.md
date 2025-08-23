@@ -1,6 +1,6 @@
 # 🎲 Random Quote Generator
 
-A clean and interactive web app that displays a random quote each time you click a button. Built using HTML, CSS, and JavaScript.
+A clean and interactive web app that displays an Inspirational random quote each time you click a button. Built using HTML, CSS, and JavaScript.
 
 ## ✨ Features
 
